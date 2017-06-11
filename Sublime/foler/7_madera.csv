@@ -1,433 +1,432 @@
- 
-, 21 , Levels: Curtido y acabado de cuero y piel, y fabricacion de productos de cuero, piel y materiales sucedaneos ...
-
-
-
-Call:
-   felm(formula = personal_total_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses  , 0.00266 ,    , 0.00193 ,   , 1.378 ,    , 0.168 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9652 , 
-Adjusted R-squared:  , 0.04296 , 
-
-
-
-Call:
-   felm(formula = obreros_totales_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)  
-ejecuciones_, 6 ,Meses , 0.002932 ,   , 0.001727 ,   , 1.697 ,   , 0.0896 , .
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9572 , 
-Adjusted R-squared:  , 0.04285 , 
-
-
-
-Call:
-   felm(formula = empleados_totales_month ~ ejecuciones_, 6 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses , 0.0002718 ,  , 0.0005376 ,  , 0.506 ,    , 0.613 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9623 , 
-Adjusted R-squared:  , 0.04315 , 
-
-
-
-Call:
-   felm(formula = horas_personal_total_month ~ ejecuciones_, 6 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses , 0.0004934 ,  , 0.0005061 ,   , 0.975 ,     , 0.33 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.939 , 
-Adjusted R-squared:  , 0.04307 , 
-
-
-
-Call:
-   felm(formula = horas_obreros_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses , 0.0004893 ,  , 0.0004264 ,   , 1.148 ,    , 0.251 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9337 , 
-Adjusted R-squared:  , 0.04303 , 
-
-
-
-Call:
-   felm(formula = horas_empleados_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses , 4.136 ,e, 06 ,  , 1.448 ,e, 04 ,   , 0.029 ,    , 0.977 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9299 , 
-Adjusted R-squared:  , 0.04318 , 
-
-
-
-Call:
-   felm(formula = remuneraciones_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses  , 0.00736 ,    , 0.01940 ,   , 0.379 ,    , 0.704 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9204 , 
-Adjusted R-squared:  , 0.04316 , 
-
-
-
-Call:
-   felm(formula = salario_obreros_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses , 0.001281 ,   , 0.014363 ,  , 0.089 ,    , 0.929 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.8552 , 
-Adjusted R-squared:  , 0.04318 , 
-
-
-
-Call:
-   felm(formula = salario_empleados_month ~ ejecuciones_, 6 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses , 0.004075 ,   , 0.006307 ,   , 0.646 ,    , 0.518 ,
-DF:  , 8939 ,  
-Adjusted R-squared:  , 0.9169 , 
-Adjusted R-squared:  , 0.04313 , 
-
-
-
-Call:
-   felm(formula = cantidad_produccion_month ~ ejecuciones_, 6 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)    
-ejecuciones_, 6 ,Meses    , 5.377 ,      , 1.266 ,   , 4.248 , , 2.18 ,e, 05 , ***
-DF:  , 8487 ,  
-Adjusted R-squared:  , 0.8789 , 
-Adjusted R-squared:  , 0.04162 , 
-
-
-
-Call:
-   felm(formula = valor_produccion_month ~ ejecuciones_, 6 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses  , 0.1634 ,     , 0.2231 ,  , 0.732 ,    , 0.464 ,
-DF:  , 8487 ,  
-Adjusted R-squared:  , 0.9246 , 
-Adjusted R-squared:  , 0.04377 , 
-
-
-
-Call:
-   felm(formula = cantidad_ventas_month ~ ejecuciones_, 6 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)    
-ejecuciones_, 6 ,Meses    , 4.911 ,      , 1.230 ,   , 3.993 , , 6.59 ,e, 05 , ***
-DF:  , 8487 ,  
-Adjusted R-squared:  , 0.8839 , 
-Adjusted R-squared:  , 0.04187 , 
-
-
-
-Call:
-   felm(formula = valor_ventas_netas_month ~ ejecuciones_, 6 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                   Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 6 ,Meses  , 0.2040 ,     , 0.2084 ,  , 0.979 ,    , 0.328 ,
-DF:  , 8487 ,  
-Adjusted R-squared:  , 0.9315 , 
-Adjusted R-squared:  , 0.04371 , 
-  
-
-
-
-Call:
-   felm(formula = personal_total_month ~ ejecuciones_, 12 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.0009322 ,  , 0.0011790 ,   , 0.791 ,    , 0.429 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9664 , 
-Adjusted R-squared:  , 0.0488 , 
-
-
-
-Call:
-   felm(formula = obreros_totales_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.001263 ,   , 0.001057 ,   , 1.195 ,    , 0.232 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9587 , 
-Adjusted R-squared:  , 0.04869 , 
-
-
-
-Call:
-   felm(formula = empleados_totales_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.0003305 ,  , 0.0003283 ,  , 1.007 ,    , 0.314 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9635 , 
-Adjusted R-squared:  , 0.04875 , 
-
-
-
-Call:
-   felm(formula = horas_personal_total_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.0001571 ,  , 0.0003019 ,    , 0.52 ,    , 0.603 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9422 , 
-Adjusted R-squared:  , 0.04885 , 
-
-
-
-Call:
-   felm(formula = horas_obreros_month ~ ejecuciones_, 12 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.0001610 ,  , 0.0002576 ,   , 0.625 ,    , 0.532 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9362 , 
-Adjusted R-squared:  , 0.04883 , 
-
-
-
-Call:
-   felm(formula = horas_empleados_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 3.889 ,e, 06 ,  , 8.382 ,e, 05 ,  , 0.046 ,    , 0.963 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9361 , 
-Adjusted R-squared:  , 0.04888 , 
-
-
-
-Call:
-   felm(formula = remuneraciones_month ~ ejecuciones_, 12 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses  , 0.00317 ,    , 0.01241 ,   , 0.255 ,    , 0.798 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.919 , 
-Adjusted R-squared:  , 0.04887 , 
-
-
-
-Call:
-   felm(formula = salario_obreros_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.002357 ,   , 0.009194 ,  , 0.256 ,    , 0.798 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.8545 , 
-Adjusted R-squared:  , 0.04887 , 
-
-
-
-Call:
-   felm(formula = salario_empleados_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.001461 ,   , 0.003962 ,   , 0.369 ,    , 0.712 ,
-DF:  , 7794 ,  
-Adjusted R-squared:  , 0.9203 , 
-Adjusted R-squared:  , 0.04887 , 
-
-
-
-Call:
-   felm(formula = cantidad_produccion_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)    
-ejecuciones_, 12 ,Meses   , 2.7800 ,     , 0.7848 ,   , 3.542 , , 0.000399 , ***
-DF:  , 7392 ,  
-Adjusted R-squared:  , 0.8815 , 
-Adjusted R-squared:  , 0.04787 , 
-
-
-
-Call:
-   felm(formula = valor_produccion_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.06283 ,    , 0.14028 ,  , 0.448 ,    , 0.654 ,
-DF:  , 7392 ,  
-Adjusted R-squared:  , 0.9226 , 
-Adjusted R-squared:  , 0.04962 , 
-
-
-
-Call:
-   felm(formula = cantidad_ventas_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)    
-ejecuciones_, 12 ,Meses   , 2.5447 ,     , 0.7647 ,   , 3.328 ,  , 0.00088 , ***
-DF:  , 7392 ,  
-Adjusted R-squared:  , 0.8861 , 
-Adjusted R-squared:  , 0.04808 , 
-
-
-
-Call:
-   felm(formula = valor_ventas_netas_month ~ ejecuciones_, 12 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 12 ,Meses , 0.07464 ,    , 0.13051 ,  , 0.572 ,    , 0.567 ,
-DF:  , 7392 ,  
-Adjusted R-squared:  , 0.9297 , 
-Adjusted R-squared:  , 0.0496 , 
-  
-
-
-
-Call:
-   felm(formula = personal_total_month ~ ejecuciones_, 24 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 0.0009079 ,  , 0.0009602 ,  , 0.946 ,    , 0.344 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9736 , 
-Adjusted R-squared:  , 0.06854 , 
-
-
-
-Call:
-   felm(formula = obreros_totales_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 0.0003203 ,  , 0.0009066 ,  , 0.353 ,    , 0.724 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9646 , 
-Adjusted R-squared:  , 0.0687 , 
-
-
-
-Call:
-   felm(formula = empleados_totales_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)  
-ejecuciones_, 24 ,Meses , 0.0005876 ,  , 0.0002542 ,  , 2.311 ,   , 0.0209 , *
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9735 , 
-Adjusted R-squared:  , 0.06762 , 
-
-
-
-Call:
-   felm(formula = horas_personal_total_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 6.586 ,e, 05 ,  , 2.340 ,e, 04 ,  , 0.281 ,    , 0.778 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9567 , 
-Adjusted R-squared:  , 0.06871 , 
-
-
-
-Call:
-   felm(formula = horas_obreros_month ~ ejecuciones_, 24 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 2.687 ,e, 05 ,  , 2.133 ,e, 04 ,  , 0.126 ,      , 0.9 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9469 , 
-Adjusted R-squared:  , 0.06872 , 
-
-
-
-Call:
-   felm(formula = horas_empleados_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                      Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 3.899 ,e, 05 ,  , 5.324 ,e, 05 ,  , 0.732 ,    , 0.464 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9659 , 
-Adjusted R-squared:  , 0.06861 , 
-
-
-
-Call:
-   felm(formula = remuneraciones_month ~ ejecuciones_, 24 ,Meses | absMes +      municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 0.003795 ,   , 0.012029 ,  , 0.315 ,    , 0.752 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9207 , 
-Adjusted R-squared:  , 0.0687 , 
-
-
-
-Call:
-   felm(formula = salario_obreros_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 0.006708 ,   , 0.008873 ,  , 0.756 ,     , 0.45 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.8653 , 
-Adjusted R-squared:  , 0.06861 , 
-
-
-
-Call:
-   felm(formula = salario_empleados_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                     Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 0.0007656 ,  , 0.0037187 ,   , 0.206 ,    , 0.837 ,
-DF:  , 5151 ,  
-Adjusted R-squared:  , 0.9287 , 
-Adjusted R-squared:  , 0.06872 , 
-
-
-
-Call:
-   felm(formula = cantidad_produccion_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses   , 0.7643 ,     , 0.7048 ,   , 1.084 ,    , 0.278 ,
-DF:  , 4866 ,  
-Adjusted R-squared:  , 0.8877 , 
-Adjusted R-squared:  , 0.07023 , 
-
-
-
-Call:
-   felm(formula = valor_produccion_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses , 0.02033 ,    , 0.13579 ,   , 0.15 ,    , 0.881 ,
-DF:  , 4866 ,  
-Adjusted R-squared:  , 0.9163 , 
-Adjusted R-squared:  , 0.07048 , 
-
-
-
-Call:
-   felm(formula = cantidad_ventas_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses   , 0.8066 ,     , 0.6904 ,   , 1.168 ,    , 0.243 ,
-DF:  , 4866 ,  
-Adjusted R-squared:  , 0.8918 , 
-Adjusted R-squared:  , 0.07019 , 
-
-
-
-Call:
-   felm(formula = valor_ventas_netas_month ~ ejecuciones_, 24 ,Meses |      absMes + municipio_Estado + empresaID, data = data) 
-Coefficients:
-                    Estimate Std. Error t value Pr( |t|)
-ejecuciones_, 24 ,Meses  , 0.0147 ,     , 0.1258 ,  , 0.117 ,    , 0.907 ,
-DF:  , 4866 ,  
-Adjusted R-squared:  , 0.9242 , 
-Adjusted R-squared:  , 0.07049 , 
+ ,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = personal_total_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses  ,0.00266,    ,0.00193,   ,1.378,    ,0.168,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9652, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04296, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = obreros_totales_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|)  ,,,,,,,,,,,,,
+ejecuciones_,6,Meses ,0.002932,   ,0.001727,   ,1.697,   ,0.0896, .,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9572, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04285, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = empleados_totales_month ~ ejecuciones_,6,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses ,0.0002718,  ,0.0005376,  ,0.506,    ,0.613,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9623, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04315, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_personal_total_month ~ ejecuciones_,6,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses ,0.0004934,  ,0.0005061,   ,0.975,     ,0.33,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.939, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04307, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_obreros_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses ,0.0004893,  ,0.0004264,   ,1.148,    ,0.251,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9337, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04303, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_empleados_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses ,4.136,e,6,  ,1.448,e,4,   ,0.029,    ,0.977
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9299, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04318, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = remuneraciones_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses  ,0.00736,    ,0.0194,   ,0.379,    ,0.704,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9204, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04316, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = salario_obreros_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses ,0.001281,   ,0.014363,  ,0.089,    ,0.929,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8552, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04318, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = salario_empleados_month ~ ejecuciones_,6,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses ,0.004075,   ,0.006307,   ,0.646,    ,0.518,,,,
+DF:  ,8939,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9169, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04313, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = cantidad_produccion_month ~ ejecuciones_,6,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|)    ,,,,,,,,,,,,,
+ejecuciones_,6,Meses    ,5.377,      ,1.266,   ,4.248, ,2.18,e,5, ***,
+DF:  ,8487,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8789, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04162, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = valor_produccion_month ~ ejecuciones_,6,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses  ,0.1634,     ,0.2231,  ,0.732,    ,0.464,,,,
+DF:  ,8487,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9246, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04377, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = cantidad_ventas_month ~ ejecuciones_,6,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|)    ,,,,,,,,,,,,,
+ejecuciones_,6,Meses    ,4.911,      ,1.23,   ,3.993, ,6.59,e,5, ***,
+DF:  ,8487,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8839, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04187, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = valor_ventas_netas_month ~ ejecuciones_,6,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                   Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,6,Meses  ,0.204,     ,0.2084,  ,0.979,    ,0.328,,,,
+DF:  ,8487,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9315, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04371, ,,,,,,,,,,,
+  ,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = personal_total_month ~ ejecuciones_,12,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.0009322,  ,0.001179,   ,0.791,    ,0.429,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9664, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.0488, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = obreros_totales_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.001263,   ,0.001057,   ,1.195,    ,0.232,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9587, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04869, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = empleados_totales_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.0003305,  ,0.0003283,  ,1.007,    ,0.314,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9635, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04875, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_personal_total_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.0001571,  ,0.0003019,    ,0.52,    ,0.603,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9422, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04885, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_obreros_month ~ ejecuciones_,12,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.000161,  ,0.0002576,   ,0.625,    ,0.532,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9362, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04883, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_empleados_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,3.889,e,6,  ,8.382,e,5,  ,0.046,    ,0.963
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9361, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04888, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = remuneraciones_month ~ ejecuciones_,12,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses  ,0.00317,    ,0.01241,   ,0.255,    ,0.798,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.919, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04887, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = salario_obreros_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.002357,   ,0.009194,  ,0.256,    ,0.798,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8545, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04887, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = salario_empleados_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.001461,   ,0.003962,   ,0.369,    ,0.712,,,,
+DF:  ,7794,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9203, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04887, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = cantidad_produccion_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|)    ,,,,,,,,,,,,,
+ejecuciones_,12,Meses   ,2.78,     ,0.7848,   ,3.542, ,0.000399, ***,,,
+DF:  ,7392,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8815, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04787, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = valor_produccion_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.06283,    ,0.14028,  ,0.448,    ,0.654,,,,
+DF:  ,7392,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9226, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04962, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = cantidad_ventas_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|)    ,,,,,,,,,,,,,
+ejecuciones_,12,Meses   ,2.5447,     ,0.7647,   ,3.328,  ,0.00088, ***,,,
+DF:  ,7392,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8861, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.04808, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = valor_ventas_netas_month ~ ejecuciones_,12,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,12,Meses ,0.07464,    ,0.13051,  ,0.572,    ,0.567,,,,
+DF:  ,7392,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9297, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.0496, ,,,,,,,,,,,
+  ,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = personal_total_month ~ ejecuciones_,24,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.0009079,  ,0.0009602,  ,0.946,    ,0.344,,,,
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9736, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06854, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = obreros_totales_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.0003203,  ,0.0009066,  ,0.353,    ,0.724,,,,
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9646, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.0687, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = empleados_totales_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|)  ,,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.0005876,  ,0.0002542,  ,2.311,   ,0.0209, *,,,
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9735, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06762, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_personal_total_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,6.586,e,5,  ,2.34,e,4,  ,0.281,    ,0.778
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9567, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06871, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_obreros_month ~ ejecuciones_,24,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,2.687,e,5,  ,2.133,e,4,  ,0.126,      ,0.9
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9469, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06872, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = horas_empleados_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                      Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,3.899,e,5,  ,5.324,e,5,  ,0.732,    ,0.464
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9659, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06861, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = remuneraciones_month ~ ejecuciones_,24,Meses | absMes +      municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.003795,   ,0.012029,  ,0.315,    ,0.752,,,,
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9207, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.0687, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = salario_obreros_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.006708,   ,0.008873,  ,0.756,     ,0.45,,,,
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8653, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06861, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = salario_empleados_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                     Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.0007656,  ,0.0037187,   ,0.206,    ,0.837,,,,
+DF:  ,5151,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9287, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.06872, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = cantidad_produccion_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses   ,0.7643,     ,0.7048,   ,1.084,    ,0.278,,,,
+DF:  ,4866,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8877, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.07023, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = valor_produccion_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses ,0.02033,    ,0.13579,   ,0.15,    ,0.881,,,,
+DF:  ,4866,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9163, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.07048, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = cantidad_ventas_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses   ,0.8066,     ,0.6904,   ,1.168,    ,0.243,,,,
+DF:  ,4866,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.8918, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.07019, ,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Call:,,,,,,,,,,,,,
+   felm(formula = valor_ventas_netas_month ~ ejecuciones_,24,Meses |      absMes + municipio_Estado + empresaID, data = data) ,,,,,,,,,,
+Coefficients:,,,,,,,,,,,,,
+                    Estimate Std. Error t value Pr( |t|),,,,,,,,,,,,,
+ejecuciones_,24,Meses  ,0.0147,     ,0.1258,  ,0.117,    ,0.907,,,,
+DF:  ,4866,  ,,,,,,,,,,,
+Adjusted R-squared:  ,0.9242, ,,,,,,,,,,,
+Adjusted R-squared:  ,0.07049, ,,,,,,,,,,,
