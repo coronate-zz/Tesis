@@ -1,0 +1,25 @@
+> prin.*
+\[.*
+> summ.*
+\*\*\* Sta.*
+Signif\. .*
+Multiple R-.*  
+F-statisti.*
+> \n\n\n\n
+>\n
+(.* Observations del.*
+Resid.*\n     Min.*\n[-+]?([0-9]*\.[0-9]+|[0-9]+).*
+Resid.*\n     Min.*\n, .* \n\n
+Resid.*\n    Min.*\n[-+]?([0-9]*\.[0-9]+|[0-9]+).*
+
+Residual sta.* on  -> DF: 
+degrees of .*\n  \(.*
+
+
+\n\n\n\n\nCall:     ->Call:
+
+---\n\n\n  -> \n
+
+
+[-+]?([0-9]*\.[0-9]+|[0-9]+)  -> , $1 ,
+Call: ->\n\n\nCall:
