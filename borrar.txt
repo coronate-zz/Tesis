@@ -16,10 +16,31 @@ Residual sta.* on  -> DF:
 degrees of .*\n  \(.*
 
 
-\n\n\n\n\nCall:     ->Call:
 
 ---\n\n\n  -> \n
 
 
 [-+]?([0-9]*\.[0-9]+|[0-9]+)  -> , $1 ,
 Call: ->\n\n\nCall:
+
+
+
+sed 's/> prin.*/ /g'  file.txt > file2.txt
+sed 's/\[.*/ /g'  file.txt > file2.txt
+sed 's/> summ.*/ /g'  file.txt > file2.txt
+sed 's/\*\*\* Sta.*/ /g'  file.txt > file2.txt
+sed 's/Signif\. .*/ /g'  file.txt > file2.txt
+sed 's/Multiple R-.*  /g'  file.txt > file2.txt
+sed 's/F-statisti.*/ /g'  file.txt > file2.txt
+sed 's/\n\n/\n/g'  file.txt > file2.txt
+sed 's/\n\n/\n/g'  file.txt > file2.txt
+sed 's/\n\n/\n/g'  file.txt > file2.txt
+
+
+
+sed 's/>/ /g'  file.txt > file2.txt
+sed 's/(.* Observations del.*/ /g'  file.txt > file2.txt
+sed 's/Resid.*\n     Min.*\n[-+]?([0-9]*\.[0-9]+|[0-9]+).*/ /g'  file.txt > file2.txt
+sed 's/Residual sta.* on/ DF: /g'  file.txt > file2.txt
+sed 's/degrees of .*\n  \(.*/ /g'  file.txt > file2.txt
+sed 's/---/ /g'  file.txt > file2.txt
