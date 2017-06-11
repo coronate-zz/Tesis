@@ -1,0 +1,894 @@
+print(subsectoresList[i])
+[1] Fabricacion de equipo de computacion, comunicacion, medicion y de otros equipos, componentes y accesorios electronicos
+21 Levels: Curtido y acabado de cuero y piel, y fabricacion de productos de cuero, piel y materiales sucedaneos ...
+> print(datosTotales6)
+[1] 2333
+> print(datosProduccion6)
+[1] 2161
+> summary(regA1)
+
+Call:
+   felm(formula = personal_total_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-452.91  -16.02   -1.67   13.45  645.84 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_6Meses  -0.9877     0.3414  -2.893  0.00385 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 79.95 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9766   Adjusted R-squared: 0.9753 
+Multiple R-squared(proj model): 0.003788   Adjusted R-squared: -0.0555 
+F-statistic(full model):702.7 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model):  8.37 on 1 and 2201 DF, p-value: 0.003853 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA2)
+
+Call:
+   felm(formula = obreros_totales_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-419.58  -12.60   -1.01   12.24  650.60 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_6Meses  -0.7641     0.2922  -2.615  0.00897 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 68.42 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9736   Adjusted R-squared: 0.972 
+Multiple R-squared(proj model): 0.003098   Adjusted R-squared: -0.05624 
+F-statistic(full model):619.2 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model):  6.84 on 1 and 2201 DF, p-value: 0.008975 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA3)
+
+Call:
+   felm(formula = empleados_totales_month ~ ejecuciones_6Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-108.150   -4.828   -0.285    3.996  181.497 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_6Meses  -0.2236     0.1126  -1.985   0.0472 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 26.37 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9608   Adjusted R-squared: 0.9585 
+Multiple R-squared(proj model): 0.001788   Adjusted R-squared: -0.05762 
+F-statistic(full model):411.9 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 3.942 on 1 and 2201 DF, p-value: 0.04722 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA7)
+
+Call:
+   felm(formula = horas_personal_total_month ~ ejecuciones_6Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-386.12   -4.53   -0.63    3.85  201.43 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+ejecuciones_6Meses -0.33439    0.09341   -3.58 0.000351 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 21.88 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9695   Adjusted R-squared: 0.9677 
+Multiple R-squared(proj model): 0.005789   Adjusted R-squared: -0.05339 
+F-statistic(full model):533.7 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 12.82 on 1 and 2201 DF, p-value: 0.0003512 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA8)
+
+Call:
+   felm(formula = horas_obreros_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-343.15   -3.64   -0.54    3.20  196.40 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+ejecuciones_6Meses -0.27231    0.08052  -3.382 0.000732 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 18.86 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9679   Adjusted R-squared: 0.966 
+Multiple R-squared(proj model): 0.00517   Adjusted R-squared: -0.05404 
+F-statistic(full model):506.6 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 11.44 on 1 and 2201 DF, p-value: 0.0007321 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA9)
+
+Call:
+   felm(formula = horas_empleados_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-42.964  -1.096  -0.101   0.921  37.036 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_6Meses -0.06208    0.02268  -2.737  0.00625 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.312 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9589   Adjusted R-squared: 0.9565 
+Multiple R-squared(proj model): 0.003392   Adjusted R-squared: -0.05592 
+F-statistic(full model):392.3 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model):  7.49 on 1 and 2201 DF, p-value: 0.006253 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA4)
+
+Call:
+   felm(formula = remuneraciones_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6350.8  -222.8    17.1   195.6 11300.9 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_6Meses  -11.834      5.224  -2.265   0.0236 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1223 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.945   Adjusted R-squared: 0.9417 
+Multiple R-squared(proj model): 0.002326   Adjusted R-squared: -0.05705 
+F-statistic(full model):288.5 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 5.132 on 1 and 2201 DF, p-value: 0.02358 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA5)
+
+Call:
+   felm(formula = salario_obreros_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3013.9  -120.5    13.9    92.4  6020.1 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_6Meses   -5.468      2.361  -2.316   0.0207 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 552.9 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9055   Adjusted R-squared: 0.8999 
+Multiple R-squared(proj model): 0.002431   Adjusted R-squared: -0.05694 
+F-statistic(full model):  161 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 5.363 on 1 and 2201 DF, p-value: 0.02066 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA6)
+
+Call:
+   felm(formula = salario_empleados_month ~ ejecuciones_6Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2656.3   -74.5    17.2    65.7  8739.1 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_6Meses   -4.216      2.459  -1.714   0.0866 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 575.9 on 2201 degrees of freedom
+Multiple R-squared(full model): 0.9417   Adjusted R-squared: 0.9382 
+Multiple R-squared(proj model): 0.001334   Adjusted R-squared: -0.05811 
+F-statistic(full model):271.3 on 131 and 2201 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 2.939 on 1 and 2201 DF, p-value: 0.0866 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA10)
+
+Call:
+   felm(formula = cantidad_produccion_month ~ ejecuciones_6Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-163647   -3415    -258    2692  278090 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)
+ejecuciones_6Meses   -99.80      85.31   -1.17    0.242
+
+Residual standard error: 19320 on 2035 degrees of freedom
+  (172 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8518   Adjusted R-squared: 0.8427 
+Multiple R-squared(proj model): 0.0006721   Adjusted R-squared: -0.06071 
+F-statistic(full model):93.57 on 125 and 2035 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 1.369 on 1 and 2035 DF, p-value: 0.2422 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA11)
+
+Call:
+   felm(formula = valor_produccion_month ~ ejecuciones_6Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-183470   -5099      14    4515  337749 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_6Meses   -271.0      122.7   -2.21   0.0272 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 27770 on 2035 degrees of freedom
+  (172 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8932   Adjusted R-squared: 0.8867 
+Multiple R-squared(proj model): 0.002394   Adjusted R-squared: -0.05888 
+F-statistic(full model):136.2 on 125 and 2035 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 4.883 on 1 and 2035 DF, p-value: 0.02724 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA12)
+
+Call:
+   felm(formula = cantidad_ventas_month ~ ejecuciones_6Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-142692   -3541    -374    2882  247133 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)
+ejecuciones_6Meses   -89.29      84.15  -1.061    0.289
+
+Residual standard error: 19050 on 2035 degrees of freedom
+  (172 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8581   Adjusted R-squared: 0.8494 
+Multiple R-squared(proj model): 0.000553   Adjusted R-squared: -0.06084 
+F-statistic(full model):98.45 on 125 and 2035 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 1.126 on 1 and 2035 DF, p-value: 0.2888 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regA13)
+
+Call:
+   felm(formula = valor_ventas_netas_month ~ ejecuciones_6Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-150531   -5624      48    4519  337442 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_6Meses   -308.7      120.8  -2.555   0.0107 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 27360 on 2035 degrees of freedom
+  (172 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8921   Adjusted R-squared: 0.8855 
+Multiple R-squared(proj model): 0.003197   Adjusted R-squared: -0.05803 
+F-statistic(full model):134.6 on 125 and 2035 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 6.527 on 1 and 2035 DF, p-value: 0.0107 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> 
+> print('----------------------------------------------------------')
+[1] "----------------------------------------------------------"
+> print(datosTotales12)
+[1] 2038
+> print(datosProduccion12)
+[1] 1886
+> summary(regB1)
+
+Call:
+   felm(formula = personal_total_month ~ ejecuciones_12Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-474.96  -15.19   -1.69   13.14  623.10 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_12Meses  -0.9018     0.2911  -3.098  0.00198 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 79.02 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9777   Adjusted R-squared: 0.9762 
+Multiple R-squared(proj model): 0.004997   Adjusted R-squared: -0.06061 
+F-statistic(full model):663.6 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 9.598 on 1 and 1911 DF, p-value: 0.001977 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB2)
+
+Call:
+   felm(formula = obreros_totales_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-444.34  -12.40   -1.22   12.11  625.49 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_12Meses  -0.6519     0.2516  -2.591  0.00963 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 68.29 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9744   Adjusted R-squared: 0.9727 
+Multiple R-squared(proj model): 0.003502   Adjusted R-squared: -0.0622 
+F-statistic(full model):576.8 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 6.715 on 1 and 1911 DF, p-value: 0.009632 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB3)
+
+Call:
+   felm(formula = empleados_totales_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-114.068   -4.638    0.116    3.941  199.503 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_12Meses -0.24990    0.09296  -2.688  0.00724 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 25.24 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9642   Adjusted R-squared: 0.9619 
+Multiple R-squared(proj model): 0.003768   Adjusted R-squared: -0.06192 
+F-statistic(full model):408.9 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 7.227 on 1 and 1911 DF, p-value: 0.007243 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB7)
+
+Call:
+   felm(formula = horas_personal_total_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-391.61   -4.56   -0.57    3.95  199.43 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_12Meses -0.26234    0.08265  -3.174  0.00153 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 22.44 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9685   Adjusted R-squared: 0.9664 
+Multiple R-squared(proj model): 0.005244   Adjusted R-squared: -0.06034 
+F-statistic(full model):465.9 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 10.07 on 1 and 1911 DF, p-value: 0.001527 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB8)
+
+Call:
+   felm(formula = horas_obreros_month ~ ejecuciones_12Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-348.31   -3.65   -0.57    3.16  194.09 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_12Meses -0.19900    0.07146  -2.785  0.00541 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 19.4 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9668   Adjusted R-squared: 0.9646 
+Multiple R-squared(proj model): 0.004042   Adjusted R-squared: -0.06163 
+F-statistic(full model):  441 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 7.756 on 1 and 1911 DF, p-value: 0.005407 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB9)
+
+Call:
+   felm(formula = horas_empleados_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-43.297  -1.089  -0.047   0.941  36.287 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+ejecuciones_12Meses -0.06334    0.01898  -3.338 0.000861 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.152 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9616   Adjusted R-squared: 0.9591 
+Multiple R-squared(proj model): 0.005796   Adjusted R-squared: -0.05976 
+F-statistic(full model):379.7 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 11.14 on 1 and 1911 DF, p-value: 0.0008609 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB4)
+
+Call:
+   felm(formula = remuneraciones_month ~ ejecuciones_12Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6903.7  -245.3     5.8   221.4 11419.7 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)   
+ejecuciones_12Meses  -12.199      4.635  -2.632  0.00857 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1258 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9439   Adjusted R-squared: 0.9402 
+Multiple R-squared(proj model): 0.003611   Adjusted R-squared: -0.06209 
+F-statistic(full model):255.4 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 6.925 on 1 and 1911 DF, p-value: 0.008566 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB5)
+
+Call:
+   felm(formula = salario_obreros_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3305.3  -118.7     8.0   102.5  5903.7 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_12Meses   -4.945      2.074  -2.385   0.0172 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 562.9 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9068   Adjusted R-squared: 0.9007 
+Multiple R-squared(proj model): 0.002967   Adjusted R-squared: -0.06277 
+F-statistic(full model):147.6 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 5.686 on 1 and 1911 DF, p-value: 0.0172 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB6)
+
+Call:
+   felm(formula = salario_empleados_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2632.4   -91.1    19.3    75.7  8651.7 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_12Meses   -5.206      2.195  -2.371   0.0178 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 596 on 1911 degrees of freedom
+Multiple R-squared(full model): 0.9397   Adjusted R-squared: 0.9358 
+Multiple R-squared(proj model): 0.002933   Adjusted R-squared: -0.06281 
+F-statistic(full model):236.6 on 126 and 1911 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 5.622 on 1 and 1911 DF, p-value: 0.01783 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB10)
+
+Call:
+   felm(formula = cantidad_produccion_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-141760   -2837    -467    2596  198728 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_12Meses   -9.421     66.717  -0.141    0.888
+
+Residual standard error: 17520 on 1765 degrees of freedom
+  (152 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8676   Adjusted R-squared: 0.8586 
+Multiple R-squared(proj model): 1.13e-05   Adjusted R-squared: -0.06798 
+F-statistic(full model):96.37 on 120 and 1765 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.01994 on 1 and 1765 DF, p-value: 0.8877 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB11)
+
+Call:
+   felm(formula = valor_produccion_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-178270   -4955     257    4370  234408 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_12Meses   -105.5      101.9  -1.036    0.301
+
+Residual standard error: 26760 on 1765 degrees of freedom
+  (152 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8977   Adjusted R-squared: 0.8907 
+Multiple R-squared(proj model): 0.0006072   Adjusted R-squared: -0.06734 
+F-statistic(full model):  129 on 120 and 1765 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 1.072 on 1 and 1765 DF, p-value: 0.3006 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB12)
+
+Call:
+   felm(formula = cantidad_ventas_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-122355   -3010    -255    2579  176605 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_12Meses   -2.657     67.347  -0.039    0.969
+
+Residual standard error: 17690 on 1765 degrees of freedom
+  (152 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8685   Adjusted R-squared: 0.8596 
+Multiple R-squared(proj model): 8.82e-07   Adjusted R-squared: -0.06799 
+F-statistic(full model):97.15 on 120 and 1765 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.001557 on 1 and 1765 DF, p-value: 0.9685 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regB13)
+
+Call:
+   felm(formula = valor_ventas_netas_month ~ ejecuciones_12Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-136061   -5601     221    4295  231996 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_12Meses   -144.4      100.1  -1.443    0.149
+
+Residual standard error: 26280 on 1765 degrees of freedom
+  (152 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8969   Adjusted R-squared: 0.8898 
+Multiple R-squared(proj model): 0.001178   Adjusted R-squared: -0.06673 
+F-statistic(full model):127.9 on 120 and 1765 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 2.082 on 1 and 1765 DF, p-value: 0.1492 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> 
+> print('----------------------------------------------------------')
+[1] "----------------------------------------------------------"
+> print(datosTotales24)
+[1] 1350
+> print(datosProduccion24)
+[1] 1246
+> summary(regC1)
+
+Call:
+   felm(formula = personal_total_month ~ ejecuciones_24Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-590.74  -14.39   -0.60   14.92  511.74 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses  -0.4306     0.3518  -1.224    0.221
+
+Residual standard error: 76.62 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9807   Adjusted R-squared: 0.979 
+Multiple R-squared(proj model): 0.001209   Adjusted R-squared: -0.08834 
+F-statistic(full model):567.5 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 1.498 on 1 and 1238 DF, p-value: 0.2212 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC2)
+
+Call:
+   felm(formula = obreros_totales_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-559.93  -13.22   -0.83   14.39  513.01 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses  -0.2560     0.3212  -0.797    0.426
+
+Residual standard error: 69.95 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9759   Adjusted R-squared: 0.9737 
+Multiple R-squared(proj model): 0.0005127   Adjusted R-squared: -0.0891 
+F-statistic(full model):451.8 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.6351 on 1 and 1238 DF, p-value: 0.4257 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC3)
+
+Call:
+   felm(formula = empleados_totales_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-66.094  -2.990   0.120   2.418 217.116 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_24Meses -0.17464    0.07514  -2.324   0.0203 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16.37 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9849   Adjusted R-squared: 0.9836 
+Multiple R-squared(proj model): 0.004344   Adjusted R-squared: -0.08493 
+F-statistic(full model):729.1 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 5.401 on 1 and 1238 DF, p-value: 0.02029 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC7)
+
+Call:
+   felm(formula = horas_personal_total_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-406.50   -4.63   -0.75    4.36  184.95 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses -0.08278    0.11477  -0.721    0.471
+
+Residual standard error: 25 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9639   Adjusted R-squared: 0.9607 
+Multiple R-squared(proj model): 0.00042   Adjusted R-squared: -0.0892 
+F-statistic(full model):  298 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.5202 on 1 and 1238 DF, p-value: 0.4709 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC8)
+
+Call:
+   felm(formula = horas_obreros_month ~ ejecuciones_24Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-361.80   -4.06   -0.73    3.60  180.89 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses -0.05396    0.10221  -0.528    0.598
+
+Residual standard error: 22.26 on 1238 degrees of freedom
+Multiple R-squared(full model):  0.96   Adjusted R-squared: 0.9564 
+Multiple R-squared(proj model): 0.0002251   Adjusted R-squared: -0.08942 
+F-statistic(full model):267.8 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.2787 on 1 and 1238 DF, p-value: 0.5976 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC9)
+
+Call:
+   felm(formula = horas_empleados_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-44.692  -0.815  -0.040   0.765  28.580 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses -0.02882    0.01814  -1.588    0.112
+
+Residual standard error: 3.952 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9779   Adjusted R-squared: 0.976 
+Multiple R-squared(proj model): 0.002034   Adjusted R-squared: -0.08744 
+F-statistic(full model):494.3 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 2.523 on 1 and 1238 DF, p-value: 0.1125 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC4)
+
+Call:
+   felm(formula = remuneraciones_month ~ ejecuciones_24Meses | absMes +      municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-8943.0  -213.1   -16.2   255.1  9025.1 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses   -7.114      5.334  -1.334    0.183
+
+Residual standard error: 1162 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9568   Adjusted R-squared: 0.953 
+Multiple R-squared(proj model): 0.001434   Adjusted R-squared: -0.0881 
+F-statistic(full model):247.2 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 1.778 on 1 and 1238 DF, p-value: 0.1826 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC5)
+
+Call:
+   felm(formula = salario_obreros_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4297.3  -106.3    -9.2   121.3  5472.8 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses   -3.817      2.611  -1.462    0.144
+
+Residual standard error: 568.6 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9187   Adjusted R-squared: 0.9114 
+Multiple R-squared(proj model): 0.001723   Adjusted R-squared: -0.08778 
+F-statistic(full model):126.1 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 2.137 on 1 and 1238 DF, p-value: 0.144 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC6)
+
+Call:
+   felm(formula = salario_empleados_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2056.0   -96.0    26.2    69.5  8449.2 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)  
+ejecuciones_24Meses   -4.307      2.507  -1.718    0.086 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 546 on 1238 degrees of freedom
+Multiple R-squared(full model): 0.9522   Adjusted R-squared: 0.9479 
+Multiple R-squared(proj model): 0.002379   Adjusted R-squared: -0.08707 
+F-statistic(full model):222.1 on 111 and 1238 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 2.952 on 1 and 1238 DF, p-value: 0.08601 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC10)
+
+Call:
+   felm(formula = cantidad_produccion_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-101663   -2326    -600    2386  111319 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses    39.25      72.95   0.538    0.591
+
+Residual standard error: 15690 on 1140 degrees of freedom
+  (104 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8815   Adjusted R-squared: 0.8706 
+Multiple R-squared(proj model): 0.0002539   Adjusted R-squared: -0.09183 
+F-statistic(full model):80.79 on 105 and 1140 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.2895 on 1 and 1140 DF, p-value: 0.5906 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC11)
+
+Call:
+   felm(formula = valor_produccion_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-153640   -5848     -92    5528  229490 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses    89.85     128.30     0.7    0.484
+
+Residual standard error: 27590 on 1140 degrees of freedom
+  (104 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8969   Adjusted R-squared: 0.8874 
+Multiple R-squared(proj model): 0.0004301   Adjusted R-squared: -0.09164 
+F-statistic(full model):94.41 on 105 and 1140 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.4905 on 1 and 1140 DF, p-value: 0.4838 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC12)
+
+Call:
+   felm(formula = cantidad_ventas_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-89456  -2700     -1   2644 153139 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses    53.84      73.52   0.732    0.464
+
+Residual standard error: 15810 on 1140 degrees of freedom
+  (104 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8817   Adjusted R-squared: 0.8708 
+Multiple R-squared(proj model): 0.0004702   Adjusted R-squared: -0.09159 
+F-statistic(full model):80.94 on 105 and 1140 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.5362 on 1 and 1140 DF, p-value: 0.4642 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
+
+
+> summary(regC13)
+
+Call:
+   felm(formula = valor_ventas_netas_month ~ ejecuciones_24Meses |      absMes + municipio_Estado + empresaID, data = data) 
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-130563   -6091    -154    4716  227021 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+ejecuciones_24Meses    93.41     124.31   0.751    0.453
+
+Residual standard error: 26740 on 1140 degrees of freedom
+  (104 observations deleted due to missingness)
+Multiple R-squared(full model): 0.8971   Adjusted R-squared: 0.8876 
+Multiple R-squared(proj model): 0.0004951   Adjusted R-squared: -0.09156 
+F-statistic(full model):94.66 on 105 and 1140 DF, p-value: < 2.2e-16 
+F-statistic(proj model): 0.5647 on 1 and 1140 DF, p-value: 0.4525 
+*** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE
