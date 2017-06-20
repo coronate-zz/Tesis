@@ -1,0 +1,45 @@
+La Encuesta mensual de la industria manufactuera es una encuesta que realiza el INEGI desde 1994 con la finalidad de reportar el comportamiento y la tendencia del sector manufacturero en México. La Industria manufactuera es uno de los sectores más importantes en la economía Mexicana,en el 2010 el 15.4% del personal ocupado trabajaba en esta industría y actualmente más de una quinta parte del PIB se genera a partir de esta actividad \cite{inegi2010}. La industria manufacturera es un componente indispensable en el crecimiento de la economía mexicana y tambien el principal receptor de la inversión extrangera (Ashby 2013).
+
+
+
+
+
+Se utilizarán cada una de estas variables y se reportara si el número de ejecuciones en cada municipio genera o tiene algún impacto sobre estas variables.
+
+El peso que tiene esta industria en la economía sumado a la gran cantidad de infroamción recolectada por el INEGI, permite desarrollar una investigación completa y acertada para responder a uno de los temas más importantes de la modernidad. En particular resulta demasiado complicado contar con este tipo de información cuando existen peridos tan intensos de vilencia pero gracias a las bases de datos del EMIM podemos obtener algunas respuestas que puedan contribuyan a reducir los daños de la guerra.
+
+
+---------------------------------------------------------------------------
+
+
+RESULTADOS:
+
+
+Haciendo una evaluación sobre todas las empresas y sobre todos los municipios encontramos que hay un efecto negativo sobre el total de horas trabajadas por lo obreros, el total de obreros en las empresas y el total de personal en la industria. Este efecto negativo sólo es sigificativo cuando utilizamos la variable de ejecuciones acumuladas en 12 meses y la variable de ejecuciones acumuladas en 24 meses. Es posible observar que ninguna otra variable se ve afectada por la violencia y que el efecto de las ejecuciones acumuladas no tiene efectos significativos sobre niguna variable. Los primeros resultados permiten obtener dos conclusiones. La primera es que la presenecia de violencia afecta más a la clase obrera en terminos generales. Dado que disminuyeron las horas trabajadas por los obreros y el total de horas trabajadas por los obreros y que nos diminuyo el número de empleados o las horas trabajadas por empleados podemos concluir que las empresas empiezan a remplazar el personal y despedir a las personas con menor capital humano. Algunas razones por lo que puede suceder esto es porque es mucho menos costoso despedir a este tipo de trabajadores y ante la incertidumbre la mejor manera de recortar costos es empezar por esta fracción trabajadora.
+La segunda conlclusión es que el efecto negativo solo es perceptible en el mediano y en el largo plazo, las empresas manufactureras no tomarán desiciones en el corto plazo ya que aún es difícil decifrar que es lo que ocurrira en la economía o si los episodios de violencia sólo son transitorios. Despues de 12 meses los directores empezarán a tomar desiciones para reducir los costos y aminorar los riesgos.
+Las resultados presentados son demuestran coinciden con investigaciones anteriores y prueban que la violencia afacta a la población pero que afecta principalmente a los sectores más pobres.
+
+
+
+
+....
+
+
+
+
+Si bien estas regresiones muestran en el efecto de la violencia en la industria manufacturera a nivel nacional, no es un caso generalizado para todas las industrias. En particular es importante desmotrar si existen otro tipo de efctos dependiendo del sector al que eprtenece la idustria o dependiendo del tamaño de la idustria. 
+
+A continuación se presnetan algunos resultados haciendo una sepración de la muestra distinguiendo entre tamaños de las empresas. Para esto dividimos el total de la muestra en tres partes iguales donde la primera submuestra tendrá la infromación del del 33% de las empresas con menor numeor de empleados y la tercera submuestra contara con el 33% de las empresas con mayor número de empleados. El modelo de regresión será aplicado a cada submuestra de la misma manera que la regresión principal.
+
+
+
+
+
+
+
+
+
+
+
+
+
