@@ -4,28 +4,30 @@ La Encuesta mensual de la industria manufactuera es una encuesta que realiza el 
 
 
 
-Se utilizarán cada una de estas variables y se reportara si el número de ejecuciones en cada municipio tiene algún impacto sobre las variables de la encuesta de la industría manufacturera.
+Se utilizarán cada una de estas variables y se reportara si el número de ejecuciones en cada municipio tiene algún impacto sobre el empleo los salarios y la producción.
 
-El peso que tiene esta industria en la economía sumado a la gran cantidad de infroamción recolectada por el INEGI, permite desarrollar una investigación completa y acertada para responder a uno de los temas más importantes en la economía mexicana. En particular resulta demasiado complicado contar con este tipo de información cuando existen peridos tan intensos de violencia pero gracias a las bases de datos del EMIM podemos obtener algunas respuestas que contribuyan a reducir los daños provocados por la guerra del narcotrafico.
+El peso que tiene esta industria en la economía sumado a la gran cantidad de infroamción recolectada por el INEGI, permite desarrollar una investigación completa y acertada para responder a uno de los temas más importantes en la economía mexicana. En general resulta demasiado complicado contar con este tipo de información cuando existen peridos tan intensos de violencia pero gracias a las bases de datos del EMIM podemos obtener algunas respuestas que contribuyan a reducir los daños provocados por la guerra del narcotrafico.
 
 
 ---------------------------------------------------------------------------
 
+INTERPRETACION:
+Las tres covariantes que se han añadido a la regresión corresponden a variables dummies para el mes absoluto , el municipio, y la empresa evaluda. El mes absoluto esta definido como el numero del mes en el que se evalua esta observación haciendo una numeración del del 1-64 donde el numero 1 correpsonde a Diciembre del 2006 y el 64 corresponde a diciembre del 2010.
+La segunda y tercera variable de control nos permite controlar los efectos fijo por municpio y por empresa para no sobreestimar el efecto del numero de homicidos. En particular el efecto fijo por empresa es una variable de control que nos permite eliminar cualquier ruido en la regresión de tal manera que cualquier valor obtendio por el número de homicidios será puramente provocado por la violencia y no por alguna variable omitida en la regresión. Esta variable de control tiene un efecto de sobreajuste por lo que los resultados presentados no son de ninguna manera predictivos aunque podemos estar seguros de que son significativos e insesgados.
+
+El coeficiente obtenido a partir de esta regresión puede ser interpretado como el aumento ( o la disminución ) del número de empleados producido por el incremento en una unidad del número del número de ejecuciones relacionadas al narcotrafico, dejando contante los efectos fijos por municipio, por empresa y por mes absoluto. 
+
+Como se ha mencionado existe un problema de sobreajuste en las regresiones pero los valores obtenidos estarán muy cercanos al real y son lo suficientemenet robuztos para dar una interpretación económica sustentada por la teoria macroeconómica.
 
 RESULTADOS:
 
 
-Haciendo una evaluación sobre todas las empresas y sobre todos los municipios encontramos que hay un efecto negativo sobre el total de horas trabajadas por lo obreros, el total de obreros en las empresas y el total de personal en la industria. Este efecto negativo sólo es sigificativo cuando utilizamos la variable de ejecuciones acumuladas en 12 meses y la variable de ejecuciones acumuladas en 24 meses. Se puede observar que ninguna otra variable se ve afectada por la violencia y que el efecto de las ejecuciones acumuladas no tiene efectos significativos sobre niguna variable. Los primeros resultados permiten obtener dos conclusiones. La primera es que la presenecia de violencia afecta la clase obrera más que proporcionalmente. Dado que disminuyeron las horas trabajadas por los obreros y el total de horas trabajadas por los obreros y dado que no diminuyo el número de empleados o las horas trabajadas por empleados podemos concluir que las empresas empiezan a remplazar el personal y despedir a las personas con menor capital humano. Algunas razones por lo que sucede esto es que es mucho menos costoso despedir a este tipo de trabajadores. Asimismo este tipo de personas vive en zonas más conflictivas por lo que tendrán mayor disposición a trasaladarse a otras zonas con menor violencia.
-La segunda conlclusión es que el efecto negativo solo es perceptible cuando existen choques prolongados de violencia. Cuando tenemos ciclos de violencia de 6 meses las empresas tendrán pocos incentivos a tomar desiciones sobre los factores de producción. Existe mucha incertidumbre y existe la posibilidad de que el choque de violencia sea solo transitorio. Ademas, ante choques de violencia cortos, las empresas pueden utilizar sus reservas en caso de que la prouducción o las ventas disminuyan. En estos casos resulta poco eficiente despedir o contratar empleados.
-
-Las resultados presentados coinciden con investigaciones anteriores 
-...
-
-y prueban que la violencia afecta principalmente a los sectores más desfavorecidos.
+Haciendo una evaluación sobre todas las empresas y sobre todos los municipios encontramos que hay un efecto negativo sobre el total de horas trabajadas por lo obreros, el total de obreros en las empresas y el total de personal en la industria. Este efecto negativo sólo es sigificativo cuando utilizamos la variable de ejecuciones acumuladas en 12 meses y la variable de ejecuciones acumuladas en 24 meses. Se puede observar que ninguna otra variable se ve afectada por la violencia y que el efecto de las ejecuciones acumuladas no tiene efectos significativos sobre niguna variable. Los primeros resultados permiten obtener dos conclusiones. La primera es que la presenecia de violencia afecta la clase obrera más que proporcionalmente. Dado que disminuyeron las horas trabajadas por los obreros y el total de horas trabajadas por los obreros y dado que no diminuyo el número de empleados o las horas trabajadas por empleados podemos concluir que las empresas empiezan a remplazar el personal y despedir a las personas con menor capital humano. Algunas razones por lo que sucede esto es que es mucho menos costoso despedir a este tipo de trabajadores (Rios 2014). Asimismo este tipo de personas vive en zonas más conflictivas por lo que tendrán mayor disposición a trasaladarse a otras zonas con menor violencia.
+La segunda conlclusión es que el efecto negativo solo es perceptible cuando existen choques prolongados de violencia. Cuando tenemos ciclos de violencia de 6 meses las empresas tendrán pocos incentivos a tomar desiciones sobre los factores de producción y la alocación de recursos. Existe mucha incertidumbre y existe la posibilidad de que el choque de violencia sea solo transitorio. Ademas, ante choques de violencia cortos, las empresas pueden utilizar sus reservas en caso de que la prouducción o las ventas disminuyan. En estos casos resulta poco eficiente despedir o contratar empleados.
 
 
+Con esto resultados se muestra el el efecto de la violencia sobre el total de la industria manufacturera, sin embargo no todas las empresas son iguales y no todas percibirán el choque de la mimsa manera. Dependiendo del giro y del tamaño de la empresa podemos esperar efectos diferentes. La razon principal es que el choque no es homogeneo y se pueden esperar efectos diferentes dependiendo del sector o el tamaño de la empresa en cuestión ( Camaco Rodriguez 2013) (Amodio Di Maio 2014).  El tamaño de las empresas puede reducir el impacto negativo de la violencia. Cuando la empresas son grandes pueden encontrar nuevas rutas de transporte, abrir nuevas sucursales o cambiar de proveedores. Las empresas pequeñas, por otro lado, tendran menor felxibilidad para optar por estas alternativas y acabaran cerrando ( Bennet 2002 Ashby 2013 ) .
 
-Con esto resultados se muestra el el efecto de la violencia sobre el total de la industria manufacturera, sin embargo no todas las empresas son iguales y no todas percibirán el choque de la mimsa manera. Dependiendo del giro y del tamaño de la empresa podemos esperar efectos diferentes. La razon principal es que el choque no es homogeneo y se pueden esperar efectos diferentes dependiendo del sector o el tamaño de la empresa en cuestión.  El tamaño de las empresas puede reducir el impacto negativo de la violencia, cuando la empresas son grandes pueden encontrar nuevas rutas de transporte, abrir nuevas sucursales o cambiar de proveedores. Las empresas pequeñas, por otro lado, tendran menor felxibilidad para optar por estas alternativas y acabara cerrando.
 
 
 
@@ -33,11 +35,12 @@ RESULTADOS 2
 
 Para proceder en la investigación de dividirá el total de las empresas de manera proporcional en tres partes de acuerdo con el número de empleados en cada una. La primera muestar contendrá el 33% de las empresas con el menor número de empleados mientras que la última contendrá el 33% con el mayor número de empleados. Al hacer esta división podemos asegurar que entre cada bloque existe aproximadamenet el mismo número de observaciones y comprar el comportamiento de las empresas en choques de 6, 12 y 24 meses de violencia. 
 
+
 La tablas muestran nuevamnete que los choques de 12 y 24 meses tienen un efecto más intenso y estadisticamente significativo sobre las variables del EMIM. A partir de los resultados se puede concluir que los choques de violecia prolongados incentivan a las empresas de mayor tamaño a recontratar una parte importante de la fuerza laboral obrera. Esto es representado con coeficientes positivos y significativos en el número de empleados, numero de obreros y total de horas trabajadas. Esto sucede por dos razones principlaes.
 Es un tema recurrente en la literatura las extsitencia de extorciones por parte de los carteles sobre los pequeños productores.  Estos cobros por plaza aumentan con el tiempo y eventualemnete llevan a la quiebra a los pequeños empresarios. Lo trabajadores de estas empresas buscaran nuevos empleos y los obreros serán contratados por empresas más grandes.
 Los obreros tiene mucho más posibilidades de ser recontratados ya que tienen un costos de capacitación muy bajos y la oferta de trabajo de los obreros es mucho más inelastica que la de los empleados. Además los sectores favorceidos por la demanda de guerra requeriran este tipo de empleados en mayor proporción para incrementar su producción. 
 
-Un efecto secuendario de la violencia es que el número de empresas en el mercado en determinados sectores es ahora menor. Las empresas medianas y pequeñas de estos sectores que no sufrieron los efectos negativos de la violencia pueden distribuir sus productos dentro del territorio a precios mayores. Esto es congruente con los coeficientes obtenidos del valor de las ventas y el coeficinete de valor de la producción para ejecuciones acumuladas en 12 y 24 meses para empresas de tamaño pequeño.
+Un efecto secuendario de la violencia es que el número de empresas en el mercado en determinados sectores es ahora menor (Rios 2016). Las empresas medianas y pequeñas de estos sectores que no sufrieron los efectos negativos de la violencia pueden distribuir sus productos dentro del territorio a precios mayores . Esto es congruente con los coeficientes obtenidos del valor de las ventas y el coeficinete de valor de la producción para ejecuciones acumuladas en 12 y 24 meses para empresas de tamaño pequeño.
  
 A diferencia de las empresas medianas y pequeñas, las empresas grandes no puden alterar sus precios tan facilmenete debido a la venta por mayoreo de los productos y debido a que las empresas grandes normalmente pertenecen a un mismo sector. Es decir, la mayoria de las empresas grandes pertencen a sectores grandes por lo que la competencia dentro de estos sectores no se ve afectada.
 Un ejemplo de esto es la industria del petroleo de los metales. Ambas industrías requieren una gran cantidad de personal y es poco probable que se hayan cerrado empresas de estos subsectores debido al efecto de la violencia. Por esta razon la cantidad de producción y ventas en estas industrias no tiene efectos positivos o sgnificativos.
@@ -57,70 +60,65 @@ REGRESIONES POR SUBSECTOR:
 
 En la tabla anterior se muestran los resultados obtenidos haciendo las misma regresión que en los ejercicios anteriores pero seleccionando submuestras de acuerdo al tipo de subsector al que pertenecen las empresas. De los 21 susbectores del EMIM vemos que la industria de maquinaria y equipo, metalica basica, alimentos, productos a base de minerales no metalicso, textiles y  la industria accesorios y aparatos electricos son las que tienen un efecto mayor al resto de las industrias.
 
-Entre todos los usbsectores sobresale la industria de metalica básica. Este subsector percibe un efecto altemente positivo y significativos sobre la cantidad de las ventas, la cantidad de las ventas, el valor de la producción y el valor de las ventas. Este subsector a diferencia del resto de las industria recibir un superavit de demanda porvocado por la demanda de guerra. La guerra contra el narcotráfico requiere de productos... como e.,. los cuales son producidos por este tipo de sector. 
+Entre todos los usbsectores sobresale la industria de metalica básica. Este subsector percibe un efecto altemente positivo y significativos sobre la cantidad de las ventas, la cantidad de la producción, el valor de la producción y el valor de las ventas. Este subsector a diferencia del resto de las industria recibe un superavit de demanda provocado por la demanda de guerra. La guerra contra el narcotráfico requiere de productos... como e.,. los cuales son producidos por este tipo de sector. 
 
 Otro tipo de subsctores como la fabricación de maquianria y equipo, productos a base de minerales no metalico, industrai de la madera y la industria alimentaria, perciben un fecto positivo y significativo sobre el valor de las ventas y el valor de la producción. Este tipo de industrias pertenecen a las empresas pequeñas cuya competencia fue eliminada. En el corto plazo estas idustrías no pueden aumentar su prouducción pero el valore de sus producto es ahora mayor debido a la ganacia de elasticidad de la oferta. Otra razón por la que puden aumentar el valor de las ventas y de la producción es el aumento en el precio de los insumos. Cuando existen episodios largos de violencia los costos de transporte aumentan debido a que los carteles capturan los camiones de transporte ya sea para ocuparlos en sus actividades o aprovecharse con su cotenido. En estos casos las industrias tendrán que gastar más en la producción y vender los productos a un mayor precio.
 
 Fianlemente existe un tercer grupo de industrías que serán las que recibirán a la mayoría de los obreros desplazados. Estas industrias son los de Fabricación de insumos textiles y productos textiles, la industria del papel, productos derivados del petroleo, fabricación de equipo de computo, fabricación de apratos electricos  y la industria metalia básica. Esto valida la hipotesis planteada de que las industrias grandes serán las que recontratarán la mayor parte de los empleados, sin embargo el salario percibido por estos no se verá disminuido.
 
+Estos resultados son consistentes con las conclusiones de Mihalache-O’Keef (2010), cada industría y cada sector tiene caracteristicas importantes como resource-bounded y flexibilidad para moverse y demanda por recursos importados que las hace mas o menos resistenetes a los efectos de la violencia. En el caso partcular de México se demuestra que existen otros factores como el tipo de bienes que produce la empresa y la competencia y la diversidad económica que efectan la producción y que determina el flujo de la oferta de trabajo.
+
+
 
 CONCLUSION:
-En esta te 
+En esta tesis se presnetan varios resultados que describen el comportamiento de las empresas ante la presnecia de violencia provocada por la guerra contra el Narcotráfico. Una vez presentados los resultados se ha construido un marco teórico que describe y los efectos económicos de la guerra sobre la proudción y el empleo. Los resultados muestran que hay un efecto negativo sobre el total de horas trabajadas por obreros y el numero de obreros contratados pero también se demuestra que este efcto no es homogeneo entre subsectores y entre tipos de empresas. Aunque el efecto global del número de homicidos parece afectar principalmente al sector obrero, existen otras industrías que se verán favorecidas a través de la demanda de guerra y atarves de la eliminación de la comptencia. Esta Tesis muestra un estudio detallado para cada caso con la inteción de convertirse en un instrumento valioso y en una guía para futuras investigaciones. Finalemente esta tesis es la primera en utilizar el convenio de investigación firmado por el ITAM con CONACYT para el uso del laboratorio de microdatos del INEGI, por lo que la mayoria de los resultados son nuevos y todos provienen de una base de datos poco explorada y nunca utilizada en este tema.
+
+
+
+AGRADECIMIENTOS:
+Me encuentro en un tren camino a Chengdu escribiendo el último capitulo de mi tesis. Veo la ventana y veo tantas cosas pasar, veo ciudades y rios pero tambien veo lo lejos que he llegado y lo mucho que me falta del camino. Esperemos que en el resto del camino encontremos otras cuevas de Bamboo.
+
+Quiero agradecerle sobre todo y antes que ha nadie a mis padres. A mi mamá Divina Isabel Narvaez Wilson por cuidarme todos los dias de mi vida aun cuando estoy lejos de casa, gracias por enseñarme a no tener miedo y hacer lo que sea necesario para conseguir lo que deseo en la vida, siempre has   sido una inspiración para mi. Te quiero con todo mi corazón. A mi padre Javier Coronado Guitierrez, un hombre virtuoso en todos los sentidos con una infinita pasciencia, gracias por confiar en mi, gracias por creer en mi. Te admiro cada día más. Cuando tenga a mi propia familia me gustaría ser la clase de padres que ustedes lo fueron para mi y que ustedes esten ahí para verlo.
+
+A mi hermano tito, gracias por todo man. Ya hemos pasado muchas cosas juntos y estoy seguro de que muchas nos quedan por delante. Ya tendré tiempo para agradecerte y pelearnos en lo que nos queda de vida.
+A mi otro hermano Diego, mi amigo desde la infancia y mi compañero en infinidad de aventuras donde no faltaron moretones y cicatrices pero nunca sobraron buenas historias. Mucha suerte en Australia.
+
+A mis tios y primos ( y también mi única familia ) Karen, Eduardo, Monica y Eduardo. Los extraño, espero tengamos un viaje pronto. Gracias tía por cuidarnos como a tus hijos, gracias tio por habernos dado una casa. Eduardo espero tu colección de gokus sea cada vez mayor. Karen espero no me vuelvas a moder la oreja. Los quiero.
+
+A mis grandes amigos Bernardo, Mario, Cantú. Hemos tenido varios viajes y los he aprendido a querer aun cuando más los odio. En especial a Bernardo, porfavor cambiate ese short y bañate de una vez. Mario, gracias por ver el lado de positivo de todas las cosas aún cuando el barco se esta hundiendo. Cantu me debes una chela, no te voy a escribir nada hasta que me la pagues.
+
+Carmen, Frida, Daniel, somos la cosa mas foranea y Oaxaqueña del mundo me siento honrado haber odiado, descubierto y amado (no necesariamente en ese orden) esta ciudad con ustedes. Seguimos igual de perdidos que antes pero por lo menos sabemos ahora en que lugar estamos.
+
+A mis amigos Huitzil y Cabra por darme una casa y caldo de médula cuando más lo necesitaba. Haberlos conocido es de las cosas por las que me siento más afortunado. Cabra ya cásate. Huitzil hang in there.
+
+A Mariana, Segrio y Luis. Los mas divertidos del mundo.
+Daniela, Lenny, Pechan son mis hermanas perdidas, las quiero a pesar de todo.
+
+La lista podría seguir pero creo que el tren esta llegando a su destino. 
+Alejandro Coronado Narváez.
 
 
 
 
 
+R´ıos, V. (2014). The role of drug-related violence and extortion in promoting mexican
+migration. Latin American Research Review, 49(3).
+
+Camacho, A. and Rodriguez, C. (2013). Firm exit and armed conflict in colombia. Journal
+of Conflict Resolution, 57(1):89{116.
+
+Mihalache-O’Keef, A. and Vashchilko, T. (2010). Chapter seven: Foreign direct investors
+in conflict zones. Adelphi Paper, 50(412-413):137{156.
+
+BenYishay, A. and Pearlman, S. (2013). Homicide and work: The impact of mexico’s
+drug war on labor market participation. Available at SSRN 2302437.
+
+Bennett, J. (2002). Multinational corporations, social responsibility and conflict. Journal
+of International Affairs-Columbia University, 55(2):393{414.
 
 
-
-
-
-
-
-
-
-Finalemnte vemos que existen una mayor concentración de obreros en las empresas sobrantes y esto se traducirá en una reducción del salario de los obreros.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-....
-
-
-
-
-Si bien estas regresiones muestran en el efecto de la violencia en la industria manufacturera a nivel nacional, no es un caso generalizado para todas las industrias. En particular es importante desmotrar si existen otro tipo de efctos dependiendo del sector al que eprtenece la idustria o dependiendo del tamaño de la idustria. 
-
-A continuación se presnetan algunos resultados haciendo una sepración de la muestra distinguiendo entre tamaños de las empresas. Para esto dividimos el total de la muestra en tres partes iguales donde la primera submuestra tendrá la infromación del del 33% de las empresas con menor numeor de empleados y la tercera submuestra contara con el 33% de las empresas con mayor número de empleados. El modelo de regresión será aplicado a cada submuestra de la misma manera que la regresión principal.
-
-
-
-
-
-
+The impact of crime and violence on economic sector
+diversity
 
 
 
